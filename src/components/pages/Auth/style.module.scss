@@ -1,0 +1,19 @@
+@import "./../../../scss/variables";
+
+.wrapperButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  > div {
+    width: 48%;
+
+    > button {
+      width: 100%;
+    }
+
+    &:last-child > button {
+      background-color: $dark-purple;
+    }
+  }
+}
