@@ -3,6 +3,7 @@ import { URL } from "./url";
 
 const instance = axios.create({
   baseURL: `${URL}/api`,
+
   headers: {
     "content-type": "application/json; charset=utf-8",
   },
